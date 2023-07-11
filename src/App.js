@@ -14,7 +14,7 @@ import EditBlog from "./Pages/EditBlog";
 import EditAccount from "./Pages/EditAccount";
 import ChangePassword from "./Pages/ChangePassword";
 
-axios.defaults.baseURL = process.env.BASE_URL_FRONTEND;
+axios.defaults.baseURL = "https://lifesuruvobackend.onrender.com";
 axios.defaults.withCredentials = true;
 
 function App() {
